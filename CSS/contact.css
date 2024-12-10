@@ -22,10 +22,30 @@
     width: 100%;
     height: 100%;
 }
+
+.hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #00000048;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero h1,
+.hero p,
+.learn-more-btn {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
 /* contact location card section */
 
 .location-box {
-    background-color: #12163b; 
+    background-color: #12163b;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -33,22 +53,27 @@
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .location-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
 .location-box .icon {
     color: #00d4ff;
     margin-right: 8px;
 }
+
 .location-box h5 {
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 700;
 }
+
 .location-box p {
     margin: 0 0 10px;
 }
+
 .location-box::after {
     content: '';
     position: absolute;
@@ -60,21 +85,25 @@
     opacity: 0.1;
     z-index: 0;
 }
+
 .location-box.india::after {
     background: url('/images/Flag_India.png') no-repeat center center/cover;
 }
+
 .location-box.australia::after {
     background: url('/images/Flag_Australia.png') no-repeat center center/cover;
 }
+
 .location-box.uk::after {
     background: url('/images/Flag_UK.png') no-repeat center center/cover;
 }
 
 
 .Contacthero-section h1 {
-    font-size:40px;
+    font-size: 40px;
     font-weight: 700;
 }
+
 .Contacthero-section p {
     font-size: 1.2rem;
     margin-top: 15px;
@@ -88,7 +117,8 @@
     border-radius: 8px;
 }
 
-.mad-header{     background-color: #2575fc;
+.mad-header {
+    background-color: #2575fc;
     color: white;
     font-weight: bold;
     padding: 10px;
@@ -102,6 +132,7 @@
     padding: 40px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+
 .map-embed iframe {
-    border-radius:50px 0 50px;
+    border-radius: 50px 0 50px;
 }
