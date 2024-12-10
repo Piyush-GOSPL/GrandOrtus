@@ -25,11 +25,11 @@
 .learn-more-btn {
     position: relative;
     z-index: 1;
-    color: #fff;
+    color:var(--color);
 }
 
 .client-card {
-    background: #ffffff;
+    background:var(--color);
     border: none;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;

@@ -194,7 +194,7 @@ h3 {
 .learn-more-btn {
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: var(--color);
 }
 
 

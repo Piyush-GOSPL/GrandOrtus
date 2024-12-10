@@ -28,19 +28,9 @@
 .learn-more-btn {
     position: relative;
     z-index: 1;
-    color: #fff;
+    color:var(--color);
 }
 
-
-.header-section h1 {
-  font-size: 2.8rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.header-section p {
-  font-size: 1.2rem;
-}
 
 /* Job Listings Section */
 .job-listings {
@@ -50,7 +40,7 @@
 .job-card {
   border: 1px solid #e3e3e3;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--color);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -95,18 +85,18 @@
 }
 
 .accordion-button {
-  background-color: #fff;
+  background-color: var(--color);
   color: #0056b3;
   font-weight: bold;
 }
 
 .accordion-button:not(.collapsed) {
   background-color: #0056b3;
-  color: #fff;
+  color:var(--color);
 }
 
 .accordion-body {
-  font-size: 0.9rem;
+  font-size: 16px;
   color: #666;
 }
 .accordion-button:not(.collapsed) {

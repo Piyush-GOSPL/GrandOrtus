@@ -27,7 +27,7 @@
 .learn-more-btn {
     position: relative;
     z-index: 1;
-    color: #fff;
+    color:var(--color);
 }
 
 
@@ -67,12 +67,12 @@
 }
 
 .culture-item h4 {
-  font-size: 1.5rem;
+  font-size:24px;
   margin-bottom: 10px;
 }
 
 .culture-item p {
-  font-size: 1rem;
+  font-size: 16px;
   color: #777;
 }
 
@@ -80,12 +80,12 @@
 .testimonials-section {
   /* background: linear-gradient(to right, #004090, #0056b3); */
   background:var(--primary-color);
-  color: #fff;
+  color:var(--color);
   padding: 60px 20px;
 }
 
 .testimonial-card {
-  background: #fff;
+  background: var(--color);
   color: #333;
   border: none;
   border-radius: 15px;
