@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
   <!-- jQuery -->
+  <script src="JS/dropdown.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <!-- Owl Carousel CSS -->
@@ -104,53 +105,60 @@
               <a class="nav-link dropdown-toggle" href="#Products" id="productsDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">Products</a>
               <ul class="dropdown-menu triangle mt-4" aria-labelledby="productsDropdown">
+
                 <li><a class="dropdown-item" href="#ProductList">Product List</a></li>
                 <li><a class="dropdown-item" href="product1desc.html">Product I Description</a></li>
+                <li><a class="dropdown-item" href="product2desc.html">Product I Description</a></li>
+
                 <li><a class="dropdown-item" href="#ProductIIDescription">Product II Description</a></li>
               </ul>
             </li>
 
             <!-- Solutions Dropdown -->
 
-            <li class="nav-item me-3 py-2 dropdown">
-              <a class="nav-link dropdown-toggle" href="#Solutions" id="solutionsDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
-              <ul class="dropdown-menu triangle mt-4 d-flex " aria-labelledby="solutionsDropdown">
-            
-                <li>
-                  <a class="dropdown-item" href="#Action">Company Size</a>
-                  <ul>
-                    <li><a class="dropdown-item" href="#Action">Startups</a></li>
-                    <li><a class="dropdown-item" href="#Action">MSMES</a></li>
-                    <li><a class="dropdown-item" href="#Action">Enterprises</a></li>
-                  </ul>
-                </li>
-            
-                <li>
-                  <a class="dropdown-item" href="#AnotherAction">Services</a>
-                  <ul>
-                    <li><a class="dropdown-item" href="#Action">Implementation Services</a></li>
-                    <li><a class="dropdown-item" href="#Action">IT Infrastructure Consulting</a></li>
-                    <li><a class="dropdown-item" href="#Action">Datacenter Infra Design & Deployment</a></li>
-                    <li><a class="dropdown-item" href="#Action">Networking And Security</a></li>
-                    <li><a class="dropdown-item" href="#Action">Mobility And Cloud</a></li>
-                    <li><a class="dropdown-item" href="#Action">Intranet</a></li>
-                    <li><a class="dropdown-item" href="#Action">FMS And AMC Support</a></li>
-                  </ul>
-                </li>
-            
-                <li>
-                  <a class="dropdown-item" href="#AnotherAction">By Industries</a>
-                  <ul>
-                    <li><a class="dropdown-item" href="#Action">Startups</a></li>
-                    <li><a class="dropdown-item" href="#Action">MSMES</a></li>
-                    <li><a class="dropdown-item" href="#Action">Enterprises</a></li>
-                  </ul>
-                </li>
-            
-              </ul>
+            <li class="nav-item dropdown me-3 py-2 position-static">
+              <a class="nav-link dropdown-toggle" href="#Solutions" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Solutions
+              </a>
+              <div class="dropdown-menu p-3 megamenu dropdown-wide" aria-labelledby="solutionsDropdown">
+                <div class="d-flex">
+                  <!-- Company Size Section -->
+                  <div class="dropdown-column">
+                    <h6 class="dropdown-header">Company Size</h6>
+                    <a class="dropdown-item" href="#Startups">Startups</a>
+                    <a class="dropdown-item" href="#MSMES">MSMEs</a>
+                    <a class="dropdown-item" href="#Enterprises">Enterprises</a>
+                  </div>
+                  
+                  <!-- Services Section -->
+                  <div class="dropdown-column">
+                    <h6 class="dropdown-header">Services</h6>
+                    <a class="dropdown-item" href="#Implementation">Implementation Services</a>
+                    <a class="dropdown-item" href="#Consulting">IT Infrastructure Consulting</a>
+                    <a class="dropdown-item" href="#Datacenter">Datacenter Infra Design & Deployment</a>
+                    <a class="dropdown-item" href="#Networking">Networking and Security</a>
+                    <a class="dropdown-item" href="#Mobility">Mobility and Cloud</a>
+                    <a class="dropdown-item" href="#Intranet">Intranet</a>
+                    <a class="dropdown-item" href="#Support">FMS and AMC Support</a>
+                  </div>
+                  
+                  <!-- By Industries Section -->
+                  <div class="dropdown-column">
+                    <h6 class="dropdown-header">By Industries</h6>
+                    <a class="dropdown-item" href="#ITITES">IT & ITES</a>
+                    <a class="dropdown-item" href="#Hospitality">Hospitality Industry</a>
+                    <a class="dropdown-item" href="#Telecom">Telecom Industry</a>
+                    <a class="dropdown-item" href="#FMCG">FMCG Industry</a>
+                    <a class="dropdown-item" href="#Healthcare">Healthcare Industry</a>
+                    <a class="dropdown-item" href="#Manufacturing">Manufacturing Industry</a>
+                    <a class="dropdown-item" href="#Gaming">Real Money Gaming Industry</a>
+                    <a class="dropdown-item" href="#Retail">Retail Industry</a>
+                    <a class="dropdown-item" href="#Staffing">Staffing and Recruitment</a>
+                    <a class="dropdown-item" href="#OnDemand">On Demand Economy</a>
+                  </div>
+                </div>
+              </div>
             </li>
-            
           </ul>
 
           <!-- Get a Quote Button -->
@@ -726,7 +734,7 @@
         <div class="col-lg-6">
           <h2 class="mb-4">Our Associations</h2>
           <div class="owl-carousel owl-theme owl-left mb-4">
-            <div class="item"> <img src="images/airtel.png" alt="Airtel"></div>
+            <div class="item"> <img src="images/" alt="Airtel"></div>
             <div class="item"><img src="images/amity.png" alt="Amity"></div>
             <div class="item"><img src="images/arista.png" alt="Arista"></div>
             <div class="item"><img src="images/cisco.png" alt="Background Image"></div>
@@ -1065,8 +1073,6 @@
 
   </script>
 
-  <!-- dropdown js link -->
-  <script src="JS/dropdown.js"></script>
 
   <!-- Sticky Navbar -->
   <script src="js/stickyNav.js"></script>
