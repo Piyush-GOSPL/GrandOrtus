@@ -189,9 +189,17 @@ list-style-type:none;
     border-bottom: 10px solid #fff;
     z-index: 1;
 }
+.dropdown-header{
+    font-size: 17px;
+    color: var(--primary-color);
+}
+.dropdown-item{
+    color: var(--secondary-color) !important;
+    font-size: 14px;
+}
 
 .dropdown-menu .dropdown-item:hover {
-    color: var(--primary-color);
+    color: var(--primary-color)!important;
 }
 
 /* main-hero Section */

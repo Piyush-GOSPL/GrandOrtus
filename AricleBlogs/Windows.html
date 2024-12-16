@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grand Ortus</title>
+    <link rel="icon" href="images/favicon-50x50.png">
+
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/CSS/AricleBlogs.css">
+
+    <link rel="stylesheet" href="/CSS/Style.css" />
+    <!-- responsive link -->
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.js"> </script>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- jQuery -->
+    <script src="JS/dropdown.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Owl Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- JavaScript animate-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- Header Section -->
+
+    <header class="header" id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-item.dropdown">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/images/Grand Ortus _BG.png" alt="Grand Ortus Logo" />
+                    <span class="trademark">&trade;</span>
+                </a>
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto  mb-lg-0">
+                        <li class="nav-item me-3 py-2 ">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <!-- Resources Dropdown -->
+
+                        <li class="nav-item me-3 py-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Resources" id="resourcesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="resourcesDropdown">
+                                <li><a class="dropdown-item" href="About.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="Team.html">Team</a></li>
+                                <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
+                                <li><a class="dropdown-item" href="#CaseStudies">Case Studies</a></li>
+                                <li><a class="dropdown-item" href="AwardsCertifications.html">Awards &
+                                        Certifications</a></li>
+
+                                <!-- Career Dropdown within Resources -->
+
+                                <li class="dropdown dropend">
+                                    <a class="dropdown-item dropdown-toggle" href="#Career" id="careerDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Career</a>
+                                    <ul class="dropdown-menu submenu " aria-labelledby="careerDropdown">
+                                        <li><a class="dropdown-item" href="Life@Grand Ortus.html">Life Grand Ortus</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="Current Job Openings.html">Current
+                                                Openings</a></li>
+                                        <li><a class="dropdown-item" href="CSR.html">Corporate social
+                                                responsibility</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="Contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Associations Dropdown -->
+
+                        <li class="nav-item me-3 py-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Associations" id="associationsDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Associations</a>
+                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="associationsDropdown">
+                                <li><a class="dropdown-item" href="Partners.html">Partners</a></li>
+                                <li><a class="dropdown-item" href="Clients.html">Clients</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Products Dropdown -->
+
+                        <li class="nav-item me-3 py-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Products" id="productsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="productsDropdown">
+
+                                <li><a class="dropdown-item" href="product1desc.html">Product I Description</a></li>
+                                <li><a class="dropdown-item" href="#ProductIIDescription">Product II Description</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Solutions Dropdown -->
+
+                        <li class="nav-item dropdown me-3 py-2 position-static">
+                            <a class="nav-link dropdown-toggle" href="#Solutions" id="solutionsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu p-3 megamenu dropdown-wide" aria-labelledby="solutionsDropdown">
+                                <div class="d-flex">
+                                    <!-- Company Size Section -->
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-header">Company Size</h6>
+                                        <a class="dropdown-item" href="#Startups">Startups</a>
+                                        <a class="dropdown-item" href="#MSMES">MSMEs</a>
+                                        <a class="dropdown-item" href="#Enterprises">Enterprises</a>
+                                    </div>
+
+                                    <!-- Services Section -->
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-header">Services</h6>
+                                        <a class="dropdown-item" href="ServiceList.html">Service List</a>
+                                        <a class="dropdown-item" href="#Implementation">Implementation Services</a>
+                                        <a class="dropdown-item" href="#Consulting">IT Infrastructure Consulting</a>
+                                        <a class="dropdown-item" href="#Datacenter">Datacenter Infra Design &
+                                            Deployment</a>
+                                        <a class="dropdown-item" href="#Networking">Networking and Security</a>
+                                        <a class="dropdown-item" href="#Mobility">Mobility and Cloud</a>
+                                        <a class="dropdown-item" href="#Intranet">Intranet</a>
+                                        <a class="dropdown-item" href="#Support">FMS and AMC Support</a>
+                                    </div>
+
+                                    <!-- By Industries Section -->
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-header">By Industries</h6>
+                                        <a class="dropdown-item" href="#ITITES">IT & ITES</a>
+                                        <a class="dropdown-item" href="#Hospitality">Hospitality Industry</a>
+                                        <a class="dropdown-item" href="#Telecom">Telecom Industry</a>
+                                        <a class="dropdown-item" href="#FMCG">FMCG Industry</a>
+                                        <a class="dropdown-item" href="#Healthcare">Healthcare Industry</a>
+                                        <a class="dropdown-item" href="#Manufacturing">Manufacturing Industry</a>
+                                        <a class="dropdown-item" href="#Gaming">Real Money Gaming Industry</a>
+                                        <a class="dropdown-item" href="#Retail">Retail Industry</a>
+                                        <a class="dropdown-item" href="#Staffing">Staffing and Recruitment</a>
+                                        <a class="dropdown-item" href="#OnDemand">On Demand Economy</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Get a Quote Button -->
+                    <form class="d-flex">
+                        <button class="btn shadow-none" type="submit">
+                            <a href="#GetAQuote">Get a Quote</a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Windows hero section -->
+
+    <section class="hero">
+        <div class="container">
+            <div class="row justify-content-center text-center pt-4">
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="left-item align-items-center">
+                        <div class="heading-sec ">
+                            <h1>Windows vs. Linux: Unraveling the Battle of Operating Systems</h1>
+                            <!-- <p>June 12, 2024 - Posted by: Admin</p> -->
+                        </div>
+                        <!-- <button class="learn-more-btn mt-lg-5">
+                                <a href="#" class="learn-more-link">Learn More</a></button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="mt-5">
+        <div class="container">
+
+            <section class="content-section">
+                <img src="/images/Windows vs. Linux.png" alt="Technology Concept" class="content-image">
+                <div class="content-text">
+                    <p>When it comes to operating systems, the debate between Windows and Linux has been ongoing for
+                        decades. Each camp has fervent supporters, and the choice between the two often sparks
+                        passionate discussions. Let’s dive into the heart of this rivalry and explore the key
+                        differences between these titans of the OS world.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Full Content Display -->
+            <div class="article">
+                <div class="article-header   text-white">1. Philosophy and Licensing</div>
+                <div class="article-body px-2">
+                    <p><strong>Linux:</strong> </p>
+                    <ul>
+                        <li> Open Source: Linux is the poster child for open-source software. Its development relies on
+                            collaboration, sharing, and community-driven contributions.</li>
+                        <li>Variety: There are numerous Linux distributions (distros), each catering to different needs.
+                            Examples include Ubuntu, Fedora, and CentOS.</li>
+                        <li>Freedom: Users can modify, distribute, and even create their own distros without any
+                            licensing fees.</li>
+                    </ul>
+                    <p><strong>Windows:</strong> </p>
+                    <ul>
+                        <li>Proprietary: Windows is a proprietary OS developed and marketed by Microsoft.
+                            applications.</li>
+                        <li> Compatibility: Most commercial software is designed for Windows.</li>
+                        <li> Uniformity: Windows provides a consistent experience across devices, making it familiar to
+                            millions of users worldwide.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="article">
+                <div class="article-header  text-white">2. User Interface and Ease of Use</div>
+                <div class="article-body px-2">
+                    <p><strong>Linux:</strong> </p>
+                    <ul>
+                        <li>Customizable: Linux desktop environments (DEs) allow users to tailor their UI. Popular DEs
+                            include GNOME, KDE, and XFCE.</li>
+                        <li> Learning Curve: Some distros require a learning curve, especially for beginners.</li>
+                        <li>Command Line: Linux enthusiasts embrace the command line for its power and flexibility.</li>
+                    </ul>
+
+
+
+                    <p><strong>Windows:</strong></p>
+                    <ul>
+                        <li> User-Friendly: Windows prioritizes ease of use. The graphical interface is intuitive,
+                            making it accessible to a wide audience.</li>
+                        <li>Consistency: Regardless of the version (Windows 7, 10, or 11), users find a familiar
+                            interface.</li>
+                        <li>GUI Dominance: Command-line usage is less common for everyday tasks.
+                        </li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+
+            <div class="article">
+                <div class="article-header  text-white">3. Software and Applications</div>
+                <div class="article-body px-2">
+                    <p><strong>Linux:</strong> </p>
+                    <ul>
+                        <li>Package Managers: Linux relies on package managers (apt, yum, pacman) for
+                            software installation.</li>
+                        <li>Open Source Software: A plethora of free and open-source applications are available.</li>
+                        <li>Compatibility: Some Windows-specific software may not run natively on Linux.</li>
+                    </ul>
+                    <p><strong>Windows:</strong></p>
+                    <ul>
+                        <li> Software Ecosystem: Windows boasts an extensive software library,
+                            including proprietary applications.</li>
+                        <li>Compatibility: Most commercial software is designed for Windows.</li>
+                        <li>Wine and Virtualization: Tools like Wine allow running Windows apps on Linux, but it’s not
+                            seamless.</li>
+                    </ul>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="article">
+                <div class="article-header  text-white">4. Security and Stability</div>
+                <div class="article-body px-2">
+                    <p><strong>Linux:</strong></p>
+                    <ul>
+                        <li> Security: Linux is renowned for its robust security. Fewer
+                            vulnerabilities and a smaller attack surface.</li>
+                        <li> Stability: Servers and critical systems often run Linux due to its stability.</li>
+                        <li> Community Vigilance: Rapid response to security threats via community collaboration.</li>
+                    </ul>
+
+                    <p><strong>Windows:</strong></p>
+                    <ul>
+                        <li>Security Patches: Frequent security updates are essential for Windows.</li>
+                        <li>Targeted Attacks: Windows faces more attacks due to its popularity.</li>
+                        <li>Enterprise Reliability: Windows Server editions offer stability for business environments.
+                        </li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+
+            <div class="article">
+                <div class="article-header  text-white">5. Cost</div>
+                <div class="article-body px-2">
+                    <p><strong>Linux:</strong></p>
+                    <ul>
+                        <li>Free: Most Linux distros are free, including updates.</li>
+                        <li>Total Cost of Ownership: Lower TCO due to no licensing fees.</li>
+
+                    </ul>
+                    <p><strong>Windows:</strong> </p>
+                    <ul>
+                        <li>License Fees: Windows requires purchasing licenses. Additional Costs:</li>
+                        <li> Proprietary software and support services add to the TCO.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+
+            <!-- Conclusion Section -->
+            <div class="article">
+                <div class="article-header bg-success text-white">Conclusion</div>
+                <div class="article-body px-2">
+                    <p class="p-2">The battle between Windows and Linux isn’t about declaring a winner—it’s about
+                        choosing the right
+                        tool for the job.</p>
+                    <p class="p-2"><strong>Windows:</strong> Excels in user-friendliness and software availability.</p>
+                    <p class="p-2"><strong>Linux:</strong> Shines in customization, security, and cost-effectiveness.
+                    </p>
+                    <p class="p-2">Whether you’re a developer, sysadmin, or casual user, understanding these differences
+                        will guide
+                        your OS journey.</p>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <footer class="footer-sec bg-dark text-light pt-lg-5 mt-lg-4 py-3">
+        <div class="container  text-md-left">
+            <div class="row d-flex text-start">
+
+                <!-- Logo and Description -->
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <div class="footer-logosec">
+                        <img src="/images/logo.png" alt="" class="img-fluid ">
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-md-3 col-lg-3  mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Get in Touch</h6>
+                    <p class="my-lg-4"><i class="fas fa-map-marker-alt mr-2"></i> D 14/30, 2nd Floor, Sector 52,
+                        Ardeecity
+                        Gurugram, Haryana
+                        -122003, India</p>
+                    <p><i class="fas fa-envelope mr-2"></i> info@grandortus.com</p>
+                    <p><i class="fas fa-phone mr-2"></i> 01244233760, +919899950003</p>
+                </div>
+
+                <!-- Service Links -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-service">
+                    <h6 class="text-uppercase font-weight-bold">Service</h6>
+                    <p><a href="#" class="text-light pb-1">IT Infrastructure Consulting</a></p>
+                    <p><a href="#" class="text-light pb-1">Networking</a></p>
+                    <p><a href="#" class="text-light pb-1">Mobility & Cloud</a></p>
+                    <p><a href="#" class="text-light pb-1">Web Design</a></p>
+                    <p><a href="#" class="text-light pb-1">Development</a></p>
+                    <p><a href="#" class="text-light pb-1">SEO</a></p>
+                </div>
+
+                <!-- Company Links -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-service">
+                    <h6 class=" text-uppercase font-weight-bold">Company</h6>
+                    <p><a href="/About.html" class="text-light pb-1">About Us</a></p>
+                    <p><a href="#" class="text-light pb-1">Our Services</a></p>
+                    <p><a href="#" class="text-light pb-1">Privacy Policy</a></p>
+                    <p><a href="#" class="text-light pb-1">Case studies</a></p>
+                    <p><a href="#" class="text-light pb-1">Blogs</a></p>
+                    <p><a href="#" class="text-light pb-1">Contact Us</a></p>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+                    <h6 class="text-uppercase font-weight-bold">Follow Us</h6>
+                    <a href="https://www.facebook.com/Grandortus.Official" target="_blank"
+                        class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/grandortus/mycompany/verification/" target="_blank"
+                        class="btn btn-outline-light btn-floating m-1" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/grandortus.official/" target="_blank"
+                        class="btn btn-outline-light btn-floating m-1" role="button"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0">&copy;2024 Copyright Grand Ortus</p>
+                <p class="mb-0 me-0">ISO/IEC 27001:2022 ISO 9001:2015</p>
+            </div>
+    </footer>
+
+
+
+    <!-- Sticky Navbar -->
+    <script src="/JS/dropdown.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/owl.carousel.min.js"></script>
+
+
+</body>
+
+</html>

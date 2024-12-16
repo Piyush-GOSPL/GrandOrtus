@@ -12,8 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS Link -->
-    <link rel="stylesheet" href="CSS/clients.css">
-    <link rel="stylesheet" href="CSS/Style.css"/>
+    <link rel="stylesheet" href="/CSS/AricleBlogs.css">
+    <link rel="stylesheet" href="/CSS/Style.css" />
+
     <!-- responsive link -->
     <link rel="stylesheet" href="CSS/responsive.css">
 
@@ -39,13 +40,13 @@
 </head>
 
 <body>
-    <!-- header section -->
 
+    <!-- Exploring header section -->
     <header class="header" id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light nav-item.dropdown">
             <div class="container">
                 <a class="navbar-brand" href="/index.html">
-                    <img src="images/Grand Ortus _BG.png" alt="Grand Ortus Logo" />
+                    <img src="/images/Grand Ortus _BG.png" alt="Grand Ortus Logo" />
                     <span class="trademark">&trade;</span>
                 </a>
                 <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
@@ -67,7 +68,7 @@
                             <ul class="dropdown-menu triangle mt-4" aria-labelledby="resourcesDropdown">
                                 <li><a class="dropdown-item" href="About.html">About Us</a></li>
                                 <li><a class="dropdown-item" href="Team.html">Team</a></li>
-                                <li><a class="dropdown-item" href="#Blogs">Blogs</a></li>
+                                <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
                                 <li><a class="dropdown-item" href="#CaseStudies">Case Studies</a></li>
                                 <li><a class="dropdown-item" href="AwardsCertifications.html">Awards &
                                         Certifications</a></li>
@@ -107,22 +108,60 @@
                             <a class="nav-link dropdown-toggle" href="#Products" id="productsDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                             <ul class="dropdown-menu triangle mt-4" aria-labelledby="productsDropdown">
-                               
+
                                 <li><a class="dropdown-item" href="product1desc.html">Product I Description</a></li>
-                                <li><a class="dropdown-item" href="product2desc.html">Product II Description</a>
+                                <li><a class="dropdown-item" href="#ProductIIDescription">Product II Description</a>
                                 </li>
                             </ul>
                         </li>
 
                         <!-- Solutions Dropdown -->
 
-                        <li class="nav-item me-3 py-2 dropdown">
+                        <li class="nav-item dropdown me-3 py-2 position-static">
                             <a class="nav-link dropdown-toggle" href="#Solutions" id="solutionsDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
-                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="solutionsDropdown">
-                                <li><a class="dropdown-item" href="#Action">Action</a></li>
-                                <li><a class="dropdown-item" href="#AnotherAction">Another Action</a></li>
-                            </ul>
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu p-3 megamenu dropdown-wide" aria-labelledby="solutionsDropdown">
+                                <div class="d-flex">
+                                    <!-- Company Size Section -->
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-header">Company Size</h6>
+                                        <a class="dropdown-item" href="#Startups">Startups</a>
+                                        <a class="dropdown-item" href="#MSMES">MSMEs</a>
+                                        <a class="dropdown-item" href="#Enterprises">Enterprises</a>
+                                    </div>
+
+                                    <!-- Services Section -->
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-header">Services</h6>
+                                        <a class="dropdown-item" href="ServiceList.html">Service List</a>
+                                        <a class="dropdown-item" href="#Implementation">Implementation Services</a>
+                                        <a class="dropdown-item" href="#Consulting">IT Infrastructure Consulting</a>
+                                        <a class="dropdown-item" href="#Datacenter">Datacenter Infra Design &
+                                            Deployment</a>
+                                        <a class="dropdown-item" href="#Networking">Networking and Security</a>
+                                        <a class="dropdown-item" href="#Mobility">Mobility and Cloud</a>
+                                        <a class="dropdown-item" href="#Intranet">Intranet</a>
+                                        <a class="dropdown-item" href="#Support">FMS and AMC Support</a>
+                                    </div>
+
+                                    <!-- By Industries Section -->
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-header">By Industries</h6>
+                                        <a class="dropdown-item" href="#ITITES">IT & ITES</a>
+                                        <a class="dropdown-item" href="#Hospitality">Hospitality Industry</a>
+                                        <a class="dropdown-item" href="#Telecom">Telecom Industry</a>
+                                        <a class="dropdown-item" href="#FMCG">FMCG Industry</a>
+                                        <a class="dropdown-item" href="#Healthcare">Healthcare Industry</a>
+                                        <a class="dropdown-item" href="#Manufacturing">Manufacturing Industry</a>
+                                        <a class="dropdown-item" href="#Gaming">Real Money Gaming Industry</a>
+                                        <a class="dropdown-item" href="#Retail">Retail Industry</a>
+                                        <a class="dropdown-item" href="#Staffing">Staffing and Recruitment</a>
+                                        <a class="dropdown-item" href="#OnDemand">On Demand Economy</a>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
 
@@ -138,7 +177,7 @@
     </header>
 
 
-    <!-- Hero Section -->
+    <!-- Windows hero section -->
 
     <section class="hero">
         <div class="container">
@@ -146,9 +185,8 @@
                 <div class="col-lg-7 col-md-12 col-12">
                     <div class="left-item align-items-center">
                         <div class="heading-sec ">
-                            <h1 class="display-4">Our Clients</h1>
-                            <p class="lead">Proudly serving industry leaders and innovators.</p>
-
+                            <h1>The Transformative Power of IoT in Industries</h1>
+                            <p>A Journey Beyond Connectivity</p>
                         </div>
                         <!-- <button class="learn-more-btn mt-lg-5">
                                 <a href="#" class="learn-more-link">Learn More</a></button> -->
@@ -161,147 +199,138 @@
 
 
 
+    <div class="container mt-4">
+        <section class="content-section">
+            <img src="/images/Transformative.png" alt="Technology Concept" class="content-image">
+            <div class="content-text">
+                <p>The Internet of Things (IoT) has transcended its status as a buzzword and become an integral part of
+                    our digital landscape. From smart homes to industrial factories, IoT devices are revolutionizing the
+                    way we interact with technology. In this blog post, we delve into the benefits of IoT devices in
+                    industries, exploring how they enhance efficiency, safety, and sustainability.
+                </p>
+            </div>
+        </section>
 
-    <!-- client-img Section -->
+        <div class="article">
+            <div class="article-header  p-2  text-white">1. Efficiency and Productivity </div>
+            <div class="article-body px-2">
+                <ul>
+                    <li> One of the primary advantages of IoT devices in industries is their ability to enhance
+                        operational efficiency. By connecting machinery, equipment, and even entire factories to the
+                        internet, businesses can gather real-time data on performance, utilization, and maintenance
+                        needs. This data allows for predictive maintenance, reducing downtime and preventing costly
+                        breakdowns. Moreover, IoT-enabled automation streamlines processes, improving productivity and
+                        reducing human error.
 
-    <section class="py-5">
-        <div class="container">
-            <div class="row g-4">
-    
-                <div class="col-lg-3">
-                    <a href="https://www.airindia.in" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/air-india.png" class="card-img-top" alt="Air India" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.airtel.in" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/airtel.png" class="card-img-top" alt="Airtel" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.amity.edu" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/amity.png" class="card-img-top" alt="Amity University" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.dhani.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/dhani.png" class="card-img-top" alt="Dhani" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.evolving.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/evolving.png" class="card-img-top" alt="Evolving Systems" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.greenkogroup.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/greenko.png" class="card-img-top" alt="Greenko" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.magicbricks.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/maagicbrickes (1).png" class="card-img-top" alt="MagicBricks" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.nokia.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/nokia.png" class="card-img-top" alt="Nokia" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.onmobile.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/onmobile (1).png" class="card-img-top" alt="OnMobile" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.pickrr.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/pickrr.png" class="card-img-top" alt="Pickrr" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.rgcirc.org" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/rgcirc.png" class="card-img-top" alt="Rajiv Gandhi Cancer Institute" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.srf.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/srf.png" class="card-img-top" alt="SRF Limited" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://timesofindia.indiatimes.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/thetimes-group.png" class="card-img-top" alt="The Times Group" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.timewait.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/timewait.png" class="card-img-top" alt="TimeWait" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.vmartretail.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/vmart.png" class="card-img-top" alt="V-Mart" />
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-3">
-                    <a href="https://www.webboxdigital.com" target="_blank">
-                        <div class="client-card">
-                            <img src="images/Clients img/webbox.png" class="card-img-top" alt="WebBox Digital" />
-                        </div>
-                    </a>
-                </div>
-    
+                        Connected Manufacturing: Industrial robots, already commonplace on factory floors, can now be
+                        extended through IoT. By connecting robots to smart devices, we enable them to communicate,
+                        share data, and coordinate autonomously. This data exchange enhances robotic efficiency,
+                        productivity, and safety.</li>
+
+                </ul>
             </div>
         </div>
-    </section>
-    
 
-    <!-- footer Section -->
+
+
+        <div class="article">
+            <div class="article-header  p-2  text-white">2. Predictive Maintenance</div>
+            <div class="article-body px-2">
+                <ul>
+                    <li> Imagine a world where equipment breakdowns are minimized. Thanks to IoT-enabled predictive
+                        maintenance, this vision is becoming a reality. By analyzing real-time data from sensors,
+                        companies can predict when machinery requires maintenance.</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="article">
+            <div class="article-header  p-2  text-white">3. Energy Efficiency and Sustainability</div>
+            <div class="article-body px-2">
+                <ul>
+                    <li>IoT in manufacturing isn’t just about productivity; it’s also about sustainability. Real-time
+                        monitoring of production lines can lead to significant energy savings.</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="article">
+            <div class="article-header  p-2  text-white">4. Supply Chain Optimization</div>
+            <div class="article-body px-2">
+                <ul>
+                    <li>In today’s fast-paced world, supply chain optimization is critical. IoT solutions enhance
+                        operational efficiency, improve production and delivery speeds, and automate repetitive tasks.
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="article">
+            <div class="article-header  p-2  text-white">5. End-to-End Visibility</div>
+            <div class="article-body px-2">
+                <ul>
+                    <li>IoT provides end-to-end visibility across the manufacturing process. From raw materials to
+                        finished products, companies can track assets, monitor quality, and ensure compliance. This
+                        transparency streamlines operations and boosts customer confidence.
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-header  p-2  text-white">6. Safety and Risk Mitigation</div>
+            <div class="article-body px-2">
+                <p>Safety is paramount in any industry. IoT devices enhance workplace safety by:</p>
+                <ul>
+                    <li>Monitoring Hazardous Environments: Sensors can detect dangerous conditions and alert workers.
+                    </li>
+                    <li>Predicting Equipment Failures: Early warnings prevent accidents.
+                    </li>
+                    <li>Ensuring Compliance: IoT ensures adherence to safety regulations.
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-header  p-2  text-white">7. Data-Driven Decision-Making</div>
+            <div class="article-body px-2">
+                <ul>
+                    <li>IoT generates a wealth of data. By analyzing this data, manufacturers gain actionable insights.
+                        Whether optimizing production schedules or fine-tuning processes, data-driven decisions lead to
+                        better outcomes.</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-header  p-2  text-white">8. Industry 4.0 and Beyond</div>
+            <div class="article-body px-2">
+                <ul>
+                    <li>IoT is the cornerstone of Industry 4.0—the convergence of physical and digital technologies. As
+                        we embrace automation, artificial intelligence, and edge computing, IoT remains at the heart of
+                        this transformative journey.
+
+                        In conclusion, IoT devices are more than mere gadgets; they’re catalysts for change. From smart
+                        factories to connected supply chains, the benefits of IoT are reshaping industries, propelling
+                        us toward a more efficient, sustainable, and interconnected future.
+
+                        So, let’s embrace the transformative power of IoT and embark on this exciting journey beyond
+                        connectivity.
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
 
     <footer class="footer-sec bg-dark text-light pt-lg-5 mt-lg-4 py-3">
         <div class="container  text-md-left">
@@ -311,7 +340,7 @@
 
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
                     <div class="footer-logosec">
-                        <img src="images/logo.png" alt="" class="img-fluid ">
+                        <img src="/images/logo.png" alt="" class="img-fluid ">
                     </div>
                 </div>
 
@@ -370,16 +399,12 @@
 
 
 
-
-
-    <!-- dropdown js link -->
-    <script src="JS/dropdown.js"></script>
-
     <!-- Sticky Navbar -->
-    <script src="js/stickyNav.js"></script>
+    <script src="/JS/dropdown.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="JS/owl.carousel.min.js"></script>
+
 </body>
 
 </html>
