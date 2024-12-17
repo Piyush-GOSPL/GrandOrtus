@@ -67,28 +67,25 @@ h1{
     color: var(--primary-color);
     text-transform: capitalize;
 
-}/* Product Text Styling */
-.product-text {
+}
+.product-text{
     font-size: 16px;
     text-align: justify;
-    line-height: 1.6; /* Improved readability */
+    /* line-height: 30px; */
 }
-
-/* Product Image Styling */
-.product-img img {
-    max-width: 100%; /* Ensures responsiveness */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes unwanted spacing */
+.product-img img{
+    width: 450px;
+    height: 400px;
 }
 
 .product-img::after {
     content: "";
-    border: 6px solid var(--primary-color, #007bff); /* Fallback color */
-    width: 85%; /* Relative size for better responsiveness */
-    height: 85%;
+    border: 6px solid var(--primary-color);
+    width: 382px;
+    height: 370px;
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 55px;
+    right: 70px;
     z-index: -1;
 }
 
