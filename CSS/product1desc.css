@@ -67,65 +67,73 @@ h1{
     color: var(--primary-color);
     text-transform: capitalize;
 
-}
-.product-text{
+}/* Product Text Styling */
+.product-text {
     font-size: 16px;
     text-align: justify;
-    /* line-height: 30px; */
+    line-height: 1.6; /* Improved readability */
 }
-.product-img img{
-    width: 450px;
-    height: 400px;
+
+/* Product Image Styling */
+.product-img img {
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes unwanted spacing */
 }
 
 .product-img::after {
     content: "";
-    border: 6px solid var(--primary-color);
-    width: 382px;
-    height: 370px;
+    border: 6px solid var(--primary-color, #007bff); /* Fallback color */
+    width: 85%; /* Relative size for better responsiveness */
+    height: 85%;
     position: absolute;
-    top: 55px;
-    right: 70px;
+    top: 10%;
+    right: 10%;
     z-index: -1;
 }
+
+/* Product Feature Section */
 .product1-feature {
     padding: 50px 0;
 }
-  
+
 .product1-feature h1 {
-    text-align: left;
+    text-align: center; /* Centered for better alignment */
     margin-bottom: 30px;
 }
-  
+
+/* Feature Card Styling */
 .feature-style {
     position: relative;
-    margin: 2px;
-    width: 32.7%;
     text-align: center;
-    background-color: var(--color);
-    border: 1px solid var(--primary-color);
+    background-color: var(--color, #f9f9f9); /* Fallback */
+    border: 1px solid var(--primary-color, #007bff); /* Fallback */
     border-radius: 10px;
-    padding: 5px;
+    padding: 20px;
     overflow: hidden;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .feature-img img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+}
+
+/* Feature Image */
+.feature-img img {
     width: 100%;
     max-height: 100px;
     object-fit: contain;
     transition: opacity 0.3s ease-in-out;
-  }
-  
-  .feature-heading h4 {
+}
+
+/* Feature Heading */
+.feature-heading h4 {
     font-size: 18px;
     font-weight: bold;
-    margin: 20px 0;
-    color: var(--text-color);
+    margin: 15px 0;
+    color: var(--text-color, #333); /* Fallback */
     transition: color 0.3s ease-in-out;
-  }
-  
-  .feature-desc {
+}
+
+/* Feature Description (Overlay) */
+.feature-desc {
     position: absolute;
     top: 0;
     left: 0;
@@ -134,23 +142,24 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color, #007bff); /* Fallback */
     color: #fff;
-    padding: 5px;
+    padding: 15px;
     opacity: 0;
-    pointer-events: none; 
+    pointer-events: none; /* Prevents interaction when hidden */
     transition: opacity 0.3s ease-in-out;
-  }
-  
-  
-  .feature-style:hover .feature-img img {
+}
+
+/* Hover Effects */
+.feature-style:hover .feature-img img {
     opacity: 0; 
-  }
-  
-  .feature-style:hover .feature-desc {
+}
+
+.feature-style:hover .feature-desc {
     opacity: 1; 
     pointer-events: auto;
-  }
-  .feature-style:hover .feature-heading h4 {
-    color: var(--primary-color); 
-  }
+}
+
+.feature-style:hover .feature-heading h4 {
+    color: var(--primary-color, #007bff);
+}
