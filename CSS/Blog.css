@@ -21,6 +21,7 @@
     width: 100%;
     height: 100%;
   } */
+
   .hero h1,
   .hero p,
   .learn-more-btn {
@@ -28,10 +29,6 @@
       z-index: 1;
       color:var(--color);
   }
-  
-
-
-
 
 .search-box {
     margin-top: 20px;
