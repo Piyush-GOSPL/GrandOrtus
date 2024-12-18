@@ -34,15 +34,6 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.content-image {
-    max-width: 40%;
-    height: auto;
-    border-radius: 8px;
 }
 
 .feature-icon {
@@ -52,14 +43,14 @@
     font-style: normal;
   }
 
-  ul li {
+  .text-ites li {
     list-style-type: none;
   }
 
   .beyond-section {
     background: linear-gradient(to right, #e3f2fd, #f9fafc);
   }
-  
+
   .beyond-section h4 {
     font-size: 2.2rem;
     font-weight: bold;
@@ -75,3 +66,29 @@
     font-weight: 600;
     color: #333;
   }
+
+
+  /* Hospitality Industry CSS */
+
+  .feature-item .icon {
+    font-size: 2.5rem;
+    color:var(--primary-color);
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.feature-item h5 {
+    color: var(--primary-color);
+}
+
+.feature-item p {
+    margin: 0;
+}
+
+.feature-item li{
+    padding:20px;
+}
