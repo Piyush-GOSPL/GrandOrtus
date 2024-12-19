@@ -33,7 +33,11 @@
         margin: 0 auto;
     }
 
-
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 63px;
+        left: 0;
+    }
     .status {
         width: auto;
         display: flex;
