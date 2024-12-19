@@ -45,137 +45,136 @@
     <!-- Header Section -->
 
     <header class="header" id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container">
-                <a class="navbar-brand" href="/index.html">
-                    <img src="images/Grand Ortus _BG.png" alt="Grand Ortus Logo" />
-                    <span class="trademark">&trade;</span>
-                </a>
-                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-item.dropdown">
+          <div class="container">
+            <a class="navbar-brand" href="/index.html">
+              <img src="images/Grand Ortus _BG.png" alt="Grand Ortus Logo" />
+              <span class="trademark">&trade;</span>
+            </a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto  mb-lg-0">
+                <li class="nav-item me-3 py-2 ">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+    
+                <!-- Resources Dropdown -->
+    
+                <li class="nav-item me-3 py-2 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#Resources" id="resourcesDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                  <ul class="dropdown-menu triangle mt-4" aria-labelledby="resourcesDropdown">
+                    <li><a class="dropdown-item" href="About.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="Team.html">Team</a></li>
+    
+    
+    
+                    <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
+                    <li><a class="dropdown-item" href="CaseStudy.html">Case Studies</a></li>
+                    <li><a class="dropdown-item" href="AwardsCertifications.html">Awards & Certifications</a></li>
+    
+                    <!-- Career Dropdown within Resources -->
+    
+                    <li class="dropdown dropend">
+                      <a class="dropdown-item dropdown-toggle" href="#Career" id="careerDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Career</a>
+                      <ul class="dropdown-menu submenu " aria-labelledby="careerDropdown">
+                        <li><a class="dropdown-item" href="Life@Grand Ortus.html">Life Grand Ortus</a></li>
+                        <li><a class="dropdown-item" href="Current Job Openings.html">Current Openings</a></li>
+                        <li><a class="dropdown-item" href="CSR.html">Corporate social
+                            responsibility</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Contact.html">Contact Us</a></li>
+                  </ul>
+                </li>
+    
+                <!-- Associations Dropdown -->
+    
+                <li class="nav-item me-3 py-2 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#Associations" id="associationsDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Associations</a>
+                  <ul class="dropdown-menu triangle mt-4" aria-labelledby="associationsDropdown">
+                    <li><a class="dropdown-item" href="Partners.html">Partners</a></li>
+                    <li><a class="dropdown-item" href="Clients.html">Clients</a></li>
+                  </ul>
+                </li>
+    
+                <!-- Products Dropdown -->
+    
+                <li class="nav-item me-3 py-2 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#Products" id="productsDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                  <ul class="dropdown-menu triangle mt-4" aria-labelledby="productsDropdown">
+    
+                    <li><a class="dropdown-item" href="product1desc.html">Product I Description</a></li>
+                    <li><a class="dropdown-item" href="product2desc.html">Product II Description</a></li>
+                  </ul>
+                </li>
+    
+                <!-- Solutions Dropdown -->
+    
+                <li class="nav-item dropdown me-3 py-2 position-static">
+                  <a class="nav-link dropdown-toggle" href="#Solutions" id="solutionsDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu p-3 megamenu dropdown-wide" aria-labelledby="solutionsDropdown">
+                    <div class="d-flex">
+                      <!-- Company Size Section -->
+                      <div class="dropdown-column">
+                        <h6 class="dropdown-header">Company Size</h6>
+                        <a class="dropdown-item" href="#Startups">Startups</a>
+                        <a class="dropdown-item" href="#MSMES">MSMES</a>
+                        <a class="dropdown-item" href="#Enterprises">Enterprises</a>
+                      </div>
+    
+                      <!-- Services Section -->
+                      <div class="dropdown-column">
+                        <h6 class="dropdown-header">Services</h6>
+                        <a class="dropdown-item" href="/Services/ServiceList.html">Service List</a>
+                        <a class="dropdown-item" href="/Services/Implementation Services.html">Implementation Services</a>
+                        <a class="dropdown-item" href="/Services/Infrastructure.html">IT Infrastructure Consulting</a>
+                        <a class="dropdown-item" href="/Services/Datacenter.html">Datacenter Infra Design & Deployment</a>
+                        <a class="dropdown-item" href="/Services/Networking.html">Networking and Security</a>
+                        <a class="dropdown-item" href="/Services/MobilityAndCloud.html">Mobility and Cloud</a>
+                        <a class="dropdown-item" href="/Services/Internet.html">Intranet</a>
+                        <a class="dropdown-item" href="/Services/FMSAnd AMCSupport.html">FMS and AMC Support</a>
+                      </div>
+    
+                      <!-- By Industries Section -->
+                      <div class="dropdown-column">
+                        <h6 class="dropdown-header">By Industries</h6>
+                        <a class="dropdown-item" href="/By Industries/ITES.html">IT & ITES</a>
+                        <a class="dropdown-item" href="/By Industries/Hospitality.html">Hospitality Industry</a>
+                        <a class="dropdown-item" href="/By Industries/Telecom .html">Telecom Industry</a>
+                        <a class="dropdown-item" href="/By Industries/FMCG.html">FMCG Industry</a>
+                        <a class="dropdown-item" href="#Healthcare">Healthcare Industry</a>
+                        <a class="dropdown-item" href="#Manufacturing">Manufacturing Industry</a>
+                        <a class="dropdown-item" href="#Gaming">Real Money Gaming Industry</a>
+                        <a class="dropdown-item" href="#Retail">Retail Industry</a>
+                        <a class="dropdown-item" href="#Staffing">Staffing and Recruitment</a>
+                        <a class="dropdown-item" href="#OnDemand">On Demand Economy</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+    
+              <!-- Get a Quote Button -->
+              <form class="d-flex">
+                <button class="btn shadow-none" type="submit">
+                  <a href="#GetAQuote">Get a Quote</a>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto  mb-lg-0">
-                        <li class="nav-item me-3 py-2 ">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-
-                        <!-- Resources Dropdown -->
-
-                        <li class="nav-item me-3 py-2 dropdown">
-                            <a class="nav-link dropdown-toggle" href="#Resources" id="resourcesDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="resourcesDropdown">
-                                <li><a class="dropdown-item" href="About.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="Team.html">Team</a></li>
-                                <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
-                                <li><a class="dropdown-item" href="#CaseStudies">Case Studies</a></li>
-                                <li><a class="dropdown-item" href="AwardsCertifications.html">Awards &
-                                        Certifications</a></li>
-
-                                <!-- Career Dropdown within Resources -->
-
-                                <li class="dropdown dropend">
-                                    <a class="dropdown-item dropdown-toggle" href="#Career" id="careerDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Career</a>
-                                    <ul class="dropdown-menu submenu " aria-labelledby="careerDropdown">
-                                        <li><a class="dropdown-item" href="Life@Grand Ortus.html">Life Grand Ortus</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="Current Job Openings.html">Current
-                                                Openings</a></li>
-                                        <li><a class="dropdown-item" href="CSR.html">Corporate
-                                                social
-                                                responsibility</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="Contact.html">Contact Us</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- Associations Dropdown -->
-
-                        <li class="nav-item me-3 py-2 dropdown">
-                            <a class="nav-link dropdown-toggle" href="#Associations" id="associationsDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Associations</a>
-                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="associationsDropdown">
-                                <li><a class="dropdown-item" href="Partners.html">Partners</a></li>
-                                <li><a class="dropdown-item" href="Clients.html">Clients</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- Products Dropdown -->
-
-                        <li class="nav-item me-3 py-2 dropdown">
-                            <a class="nav-link dropdown-toggle" href="#Products" id="productsDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-                            <ul class="dropdown-menu triangle mt-4" aria-labelledby="productsDropdown">
-                                
-                                <li><a class="dropdown-item" href="product1desc.html">Product I Description</a></li>
-                                <li><a class="dropdown-item" href="product2desc.html">Product II Description</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <!-- Solutions Dropdown -->
-                        <li class="nav-item dropdown me-3 py-2 position-static">
-                            <a class="nav-link dropdown-toggle" href="#Solutions" id="solutionsDropdown" role="button"
-                              data-bs-toggle="dropdown" aria-expanded="false">
-                              Solutions
-                            </a>
-                            <div class="dropdown-menu p-3 megamenu dropdown-wide" aria-labelledby="solutionsDropdown">
-                              <div class="d-flex">
-                                <!-- Company Size Section -->
-                                <div class="dropdown-column">
-                                  <h6 class="dropdown-header">Company Size</h6>
-                                  <a class="dropdown-item" href="#Startups">Startups</a>
-                                  <a class="dropdown-item" href="#MSMES">MSMEs</a>
-                                  <a class="dropdown-item" href="#Enterprises">Enterprises</a>
-                                </div>
-              
-                                <!-- Services Section -->
-                                <div class="dropdown-column">
-                                  <h6 class="dropdown-header">Services</h6>
-                                  <a class="dropdown-item" href="ServiceList.html">Service List</a>
-                                  <a class="dropdown-item" href="/Services/Implementation Services.html">Implementation Services</a>
-                                  <a class="dropdown-item" href="/Services/Infrastructure.html">IT Infrastructure Consulting</a>
-                                  <a class="dropdown-item" href="#Datacenter">Datacenter Infra Design & Deployment</a>
-                                  <a class="dropdown-item" href="#Networking">Networking and Security</a>
-                                  <a class="dropdown-item" href="#Mobility">Mobility and Cloud</a>
-                                  <a class="dropdown-item" href="#Intranet">Intranet</a>
-                                  <a class="dropdown-item" href="#Support">FMS and AMC Support</a>
-                                </div>
-              
-                                <!-- By Industries Section -->
-                                <div class="dropdown-column">
-                                  <h6 class="dropdown-header">By Industries</h6>
-                                  <a class="dropdown-item" href="#ITITES">IT & ITES</a>
-                                  <a class="dropdown-item" href="#Hospitality">Hospitality Industry</a>
-                                  <a class="dropdown-item" href="#Telecom">Telecom Industry</a>
-                                  <a class="dropdown-item" href="#FMCG">FMCG Industry</a>
-                                  <a class="dropdown-item" href="#Healthcare">Healthcare Industry</a>
-                                  <a class="dropdown-item" href="#Manufacturing">Manufacturing Industry</a>
-                                  <a class="dropdown-item" href="#Gaming">Real Money Gaming Industry</a>
-                                  <a class="dropdown-item" href="#Retail">Retail Industry</a>
-                                  <a class="dropdown-item" href="#Staffing">Staffing and Recruitment</a>
-                                  <a class="dropdown-item" href="#OnDemand">On Demand Economy</a>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                    </ul>
-
-                    <!-- Get a Quote Button -->
-                    <form class="d-flex">
-                        <button class="btn shadow-none" type="submit">
-                            <a href="#GetAQuote">Get a Quote</a>
-                        </button>
-                    </form>
-                </div>
+              </form>
             </div>
+          </div>
         </nav>
-    </header>
+      </header>
 
     <!--CSR-Hero Section -->
 
