@@ -460,6 +460,10 @@ list-style-type:none;
 
 }
 
+.service h1{
+    color: var(--secondary-color);
+}
+
 .hover-text a {
     text-decoration: none;
     color: var(--secondary-color);

@@ -68,7 +68,7 @@
 
 .service-list li:hover {
     color:var(--primary-color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
