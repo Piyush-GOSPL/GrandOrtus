@@ -68,7 +68,7 @@
   }
 
 
-  /* Hospitality Industry CSS */
+  /* Hospitality Industry CSS  Section*/
 
   .feature-item .icon {
     font-size: 2.5rem;
@@ -91,4 +91,28 @@
 
 .feature-item li{
     padding:20px;
+}
+
+
+/* Gaming css section */
+
+.section-title {
+  border-bottom: 3px solid var(--primary-color);
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+.feature-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.feature-list li::before {
+  content: '\25C6';
+  color:var(--primary-color);
+  margin-right: 10px;
 }

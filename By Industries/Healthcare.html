@@ -5,18 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grand Ortus</title>
-    <link rel="icon" href="images/favicon-50x50.png">
+    <link rel="icon" href="/images/favicon-50x50.png">
 
     <!-- Bootstrap CDN Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS Link -->
-    <link rel="stylesheet" href="/CSS/AricleBlogs.css">
-
+    <link rel="stylesheet" href="/CSS/Healthcare.css">
+    <link rel="stylesheet" href="/CSS/ByIndustries.css">
     <link rel="stylesheet" href="/CSS/Style.css" />
     <!-- responsive link -->
-    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
 
     <script src="https://code.jquery.com/jquery-1.11.3.js"> </script>
 
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
     <!-- jQuery -->
-    <script src="JS/dropdown.js" defer></script>
+    <script src="/JS/dropdown.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Owl Carousel CSS -->
@@ -37,14 +37,11 @@
     <!-- JavaScript animate-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
 </head>
 
 <body>
-    <!-- Windows Header Section -->
+
+    <!-- Header Section -->
 
     <header class="header" id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light nav-item.dropdown">
@@ -72,6 +69,9 @@
                             <ul class="dropdown-menu triangle mt-4" aria-labelledby="resourcesDropdown">
                                 <li><a class="dropdown-item" href="/About.html">About Us</a></li>
                                 <li><a class="dropdown-item" href="/Team.html">Team</a></li>
+
+
+
                                 <li><a class="dropdown-item" href="/Blog.html">Blogs</a></li>
                                 <li><a class="dropdown-item" href="#CaseStudies">Case Studies</a></li>
                                 <li><a class="dropdown-item" href="/AwardsCertifications.html">Awards &
@@ -83,11 +83,11 @@
                                     <a class="dropdown-item dropdown-toggle" href="#Career" id="careerDropdown"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">Career</a>
                                     <ul class="dropdown-menu submenu " aria-labelledby="careerDropdown">
-                                        <li><a class="dropdown-item" href="/Life@Grand Ortus.html">Life Grand Ortus</a>
+                                        <li><a class="dropdown-item" href="Life@Grand Ortus.html">Life Grand Ortus</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="/Current Job Openings.html">Current
+                                        <li><a class="dropdown-item" href="Current Job Openings.html">Current
                                                 Openings</a></li>
-                                        <li><a class="dropdown-item" href="/CSR.html">Corporate social
+                                        <li><a class="dropdown-item" href="CSR.html">Corporate social
                                                 responsibility</a></li>
                                     </ul>
                                 </li>
@@ -101,8 +101,8 @@
                             <a class="nav-link dropdown-toggle" href="#Associations" id="associationsDropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Associations</a>
                             <ul class="dropdown-menu triangle mt-4" aria-labelledby="associationsDropdown">
-                                <li><a class="dropdown-item" href="/Partners.html">Partners</a></li>
-                                <li><a class="dropdown-item" href="/Clients.html">Clients</a></li>
+                                <li><a class="dropdown-item" href="Partners.html">Partners</a></li>
+                                <li><a class="dropdown-item" href="Clients.html">Clients</a></li>
                             </ul>
                         </li>
 
@@ -114,8 +114,7 @@
                             <ul class="dropdown-menu triangle mt-4" aria-labelledby="productsDropdown">
 
                                 <li><a class="dropdown-item" href="product1desc.html">Product I Description</a></li>
-                                <li><a class="dropdown-item" href="#ProductIIDescription">Product II Description</a>
-                                </li>
+                                <li><a class="dropdown-item" href="product2desc.html">Product II Description</a></li>
                             </ul>
                         </li>
 
@@ -139,24 +138,31 @@
                                     <!-- Services Section -->
                                     <div class="dropdown-column">
                                         <h6 class="dropdown-header">Services</h6>
-                                        <a class="dropdown-item" href="/ServiceList.html">Service List</a>
-                                        <a class="dropdown-item" href="#Implementation">Implementation Services</a>
-                                        <a class="dropdown-item" href="#Consulting">IT Infrastructure Consulting</a>
-                                        <a class="dropdown-item" href="#Datacenter">Datacenter Infra Design &
-                                            Deployment</a>
-                                        <a class="dropdown-item" href="#Networking">Networking and Security</a>
-                                        <a class="dropdown-item" href="#Mobility">Mobility and Cloud</a>
-                                        <a class="dropdown-item" href="#Intranet">Intranet</a>
-                                        <a class="dropdown-item" href="#Support">FMS and AMC Support</a>
+                                        <a class="dropdown-item" href="/Services/ServiceList.html">Service List</a>
+                                        <a class="dropdown-item"
+                                            href="/Services/Implementation Services.html">Implementation Services</a>
+                                        <a class="dropdown-item" href="/Services/Infrastructure.html">IT Infrastructure
+                                            Consulting</a>
+                                        <a class="dropdown-item" href="/Services/Datacenter.html">Datacenter Infra
+                                            Design & Deployment</a>
+                                        <a class="dropdown-item" href="/Services/Networking.html">Networking and
+                                            Security</a>
+                                        <a class="dropdown-item" href="/Services/MobilityAndCloud.html">Mobility and
+                                            Cloud</a>
+                                        <a class="dropdown-item" href="/Services/Internet.html">Intranet</a>
+                                        <a class="dropdown-item" href="/Services/FMSAnd AMCSupport.html">FMS and AMC
+                                            Support</a>
                                     </div>
 
                                     <!-- By Industries Section -->
                                     <div class="dropdown-column">
                                         <h6 class="dropdown-header">By Industries</h6>
-                                        <a class="dropdown-item" href="#ITITES">IT & ITES</a>
-                                        <a class="dropdown-item" href="#Hospitality">Hospitality Industry</a>
-                                        <a class="dropdown-item" href="#Telecom">Telecom Industry</a>
-                                        <a class="dropdown-item" href="#FMCG">FMCG Industry</a>
+                                        <a class="dropdown-item" href="/By Industries/ITES.html">IT & ITES</a>
+                                        <a class="dropdown-item" href="/By Industries/Hospitality.html">Hospitality
+                                            Industry</a>
+                                        <a class="dropdown-item" href="/By Industries/Telecom .html">Telecom
+                                            Industry</a>
+                                        <a class="dropdown-item" href="/By Industries/FMCG.html">FMCG Industry</a>
                                         <a class="dropdown-item" href="#Healthcare">Healthcare Industry</a>
                                         <a class="dropdown-item" href="#Manufacturing">Manufacturing Industry</a>
                                         <a class="dropdown-item" href="#Gaming">Real Money Gaming Industry</a>
@@ -180,7 +186,7 @@
         </nav>
     </header>
 
-    <!-- Windows hero section -->
+
 
     <section class="hero">
         <div class="container">
@@ -188,8 +194,9 @@
                 <div class="col-lg-7 col-md-12 col-12">
                     <div class="left-item align-items-center">
                         <div class="heading-sec ">
-                            <h1>Windows vs. Linux: Unraveling the Battle of Operating Systems</h1>
-                            <!-- <p>June 12, 2024 - Posted by: Admin</p> -->
+                            <h1>Healthcare Industry</h1>
+                            <p class="lead">Innovative and secure networking solutions to streamline your healthcare
+                                Industry.</p>
                         </div>
                         <!-- <button class="learn-more-btn mt-lg-5">
                                 <a href="#" class="learn-more-link">Learn More</a></button> -->
@@ -199,172 +206,108 @@
         </div>
     </section>
 
+    <!--Healthcare Industry section -->
 
+    <div class="container mt-3">
+        <section class="content-section ">
+            <div class="row">
+                <div class="col-lg-5"><img src="/images/Healthcare Industry.jpg" alt="Technology Concept"
+                        class="img-fluid rounded">
+                </div>
+                <div class="col-lg-2"></div>
 
-
-    <section class="mt-5">
-        <div class="container">
-
-            <section class="content-section">
-                <div class="row">
-                    <div class="col-lg-6"> <img src="/images/Windows vs. Linux.png" alt="Technology Concept"
-                            class="img-fluid rounded"> </div>
-                    <div class="col-lg-6">
-                        <div class="content-text">
-                            <p>When it comes to operating systems, the debate between Windows and Linux has been ongoing
-                                for
-                                decades. Each camp has fervent supporters, and the choice between the two often sparks
-                                passionate discussions. Let’s dive into the heart of this rivalry and explore the key
-                                differences between these titans of the OS world.
-                            </p>
-                        </div>
+                <div class="col-lg-5">
+                    <div class="content-text">
+                        <p>Information Technology: Transforming the Healthcare Landscape
+                            Care, IT is making healthcare more efficient, accessible, and personalized than ever before.
+                        </p>
                     </div>
                 </div>
+        </section>
+    </div>
 
 
-            </section>
-
-            <!-- Full Content Display -->
-            <div class="article">
-                <div class="article-header   text-white">1. Philosophy and Licensing</div>
-                <div class="article-body px-2">
-                    <p><strong>Linux:</strong> </p>
-                    <ul>
-                        <li> Open Source: Linux is the poster child for open-source software. Its development relies on
-                            collaboration, sharing, and community-driven contributions.</li>
-                        <li>Variety: There are numerous Linux distributions (distros), each catering to different needs.
-                            Examples include Ubuntu, Fedora, and CentOS.</li>
-                        <li>Freedom: Users can modify, distribute, and even create their own distros without any
-                            licensing fees.</li>
-                    </ul>
-                    <p><strong>Windows:</strong> </p>
-                    <ul>
-                        <li>Proprietary: Windows is a proprietary OS developed and marketed by Microsoft.
-                            applications.</li>
-                        <li> Compatibility: Most commercial software is designed for Windows.</li>
-                        <li> Uniformity: Windows provides a consistent experience across devices, making it familiar to
-                            millions of users worldwide.</li>
-                    </ul>
-
-                </div>
+    <!-- Features Section -->
+    <div class="container custom-section">
+        <h2 class="custom-heading">Here are just a few ways IT is revolutionizing healthcare:</h2>
+        <div class="list-item">
+            <i class="fas fa-file-medical"></i>
+            <div>
+                <strong>Electronic Health Records (EHRs):</strong>
+                <p>These digital repositories of patient data allow for secure and centralized access to medical
+                    history, medications, allergies, and immunizations. This eliminates the need for paper charts and
+                    reduces the risk of errors, improving patient safety and continuity of care.</p>
             </div>
-
-            <div class="article">
-                <div class="article-header  text-white">2. User Interface and Ease of Use</div>
-                <div class="article-body px-2">
-                    <p><strong>Linux:</strong> </p>
-                    <ul>
-                        <li>Customizable: Linux desktop environments (DEs) allow users to tailor their UI. Popular DEs
-                            include GNOME, KDE, and XFCE.</li>
-                        <li> Learning Curve: Some distros require a learning curve, especially for beginners.</li>
-                        <li>Command Line: Linux enthusiasts embrace the command line for its power and flexibility.</li>
-                    </ul>
-
-
-
-                    <p><strong>Windows:</strong></p>
-                    <ul>
-                        <li> User-Friendly: Windows prioritizes ease of use. The graphical interface is intuitive,
-                            making it accessible to a wide audience.</li>
-                        <li>Consistency: Regardless of the version (Windows 7, 10, or 11), users find a familiar
-                            interface.</li>
-                        <li>GUI Dominance: Command-line usage is less common for everyday tasks.
-                        </li>
-                    </ul>
-
-
-
-                </div>
+        </div>
+        <div class="list-item">
+            <i class="fas fa-video"></i>
+            <div>
+                <strong>Telemedicine:</strong>
+                <p>Virtual doctor visits are becoming increasingly popular, thanks to advancements in video conferencing
+                    and remote monitoring technologies. This allows patients to receive care from specialists located
+                    anywhere in the world, regardless of geographical limitations.</p>
             </div>
-
-            <div class="article">
-                <div class="article-header  text-white">3. Software and Applications</div>
-                <div class="article-body px-2">
-                    <p><strong>Linux:</strong> </p>
-                    <ul>
-                        <li>Package Managers: Linux relies on package managers (apt, yum, pacman) for
-                            software installation.</li>
-                        <li>Open Source Software: A plethora of free and open-source applications are available.</li>
-                        <li>Compatibility: Some Windows-specific software may not run natively on Linux.</li>
-                    </ul>
-                    <p><strong>Windows:</strong></p>
-                    <ul>
-                        <li> Software Ecosystem: Windows boasts an extensive software library,
-                            including proprietary applications.</li>
-                        <li>Compatibility: Most commercial software is designed for Windows.</li>
-                        <li>Wine and Virtualization: Tools like Wine allow running Windows apps on Linux, but it’s not
-                            seamless.</li>
-                    </ul>
-
-
-
-
-                </div>
+        </div>
+        <div class="list-item">
+            <i class="fas fa-dna"></i>
+            <div>
+                <strong>Precision Medicine:</strong>
+                <p>By analyzing vast amounts of patient data, including genetic information, IT is enabling the
+                    development of personalized treatment plans. This allows for more targeted and effective therapies,
+                    leading to better patient outcomes.</p>
             </div>
-
-            <div class="article">
-                <div class="article-header  text-white">4. Security and Stability</div>
-                <div class="article-body px-2">
-                    <p><strong>Linux:</strong></p>
-                    <ul>
-                        <li> Security: Linux is renowned for its robust security. Fewer
-                            vulnerabilities and a smaller attack surface.</li>
-                        <li> Stability: Servers and critical systems often run Linux due to its stability.</li>
-                        <li> Community Vigilance: Rapid response to security threats via community collaboration.</li>
-                    </ul>
-
-                    <p><strong>Windows:</strong></p>
-                    <ul>
-                        <li>Security Patches: Frequent security updates are essential for Windows.</li>
-                        <li>Targeted Attacks: Windows faces more attacks due to its popularity.</li>
-                        <li>Enterprise Reliability: Windows Server editions offer stability for business environments.
-                        </li>
-                    </ul>
-
-
-
-                </div>
+        </div>
+        <div class="list-item">
+            <i class="fas fa-robot"></i>
+            <div>
+                <strong>Artificial Intelligence (AI):</strong>
+                <p>AI is being used in a variety of ways to improve healthcare, from chatbots that answer patient
+                    questions to algorithms that assist in diagnosis and treatment planning. AI is still in its early
+                    stages in healthcare, but its potential is vast.</p>
             </div>
-
-            <div class="article">
-                <div class="article-header  text-white">5. Cost</div>
-                <div class="article-body px-2">
-                    <p><strong>Linux:</strong></p>
-                    <ul>
-                        <li>Free: Most Linux distros are free, including updates.</li>
-                        <li>Total Cost of Ownership: Lower TCO due to no licensing fees.</li>
-
-                    </ul>
-                    <p><strong>Windows:</strong> </p>
-                    <ul>
-                        <li>License Fees: Windows requires purchasing licenses. Additional Costs:</li>
-                        <li> Proprietary software and support services add to the TCO.</li>
-                    </ul>
-
-
-
-                </div>
+        </div>
+        <div class="list-item">
+            <i class="fas fa-watch"></i>
+            <div>
+                <strong>Wearable Devices:</strong>
+                <p>Devices like fitness trackers and smartwatches are collecting real-time health data, allowing
+                    patients and healthcare providers to monitor vital signs, track chronic conditions, and identify
+                    potential health risks early on.</p>
             </div>
+        </div>
+    </div>
 
-            <!-- Conclusion Section -->
-            <div class="article">
-                <div class="article-header bg-success text-white">Conclusion</div>
-                <div class="article-body px-2">
-                    <p class="p-2">The battle between Windows and Linux isn’t about declaring a winner—it’s about
-                        choosing the right
-                        tool for the job.</p>
-                    <p class="p-2"><strong>Windows:</strong> Excels in user-friendliness and software availability.</p>
-                    <p class="p-2"><strong>Linux:</strong> Shines in customization, security, and cost-effectiveness.
-                    </p>
-                    <p class="p-2">Whether you’re a developer, sysadmin, or casual user, understanding these differences
-                        will guide
-                        your OS journey.</p>
-                </div>
-            </div>
-    </section>
+    <div class="container my-5">
+        <div class="custom-section">
+          <h2 class="custom-title">
+            The benefits of IT in healthcare extend beyond these specific examples. IT can also improve:
+          </h2>
+          <ul class="mt-4">
+            <li class="custom-list-item">
+              <strong class="custom-highlight">Operational efficiency:</strong> Streamlining administrative tasks, automating workflows, and improving communication within healthcare organizations.
+            </li>
+            <li class="custom-list-item">
+              <strong class="custom-highlight">Patient engagement:</strong> Empowering patients with tools to manage their own health, access medical records, and schedule appointments.
+            </li>
+            <li class="custom-list-item">
+              <strong class="custom-highlight">Cost reduction:</strong> Reducing healthcare costs through improved efficiency, fewer errors, and earlier detection of diseases.
+            </li>
+          </ul>
+          <p class="mt-4">
+            Of course, implementing IT solutions in healthcare comes with its own set of challenges. Data security and privacy concerns need to be addressed, and healthcare providers need to ensure that they have the proper infrastructure and training in place to effectively utilize new technologies.
+          </p>
+          <p>
+            However, the potential benefits of IT in healthcare are undeniable. By embracing technology, the healthcare industry can provide better care for patients, improve health outcomes, and ultimately make healthcare more accessible and affordable for everyone.
+          </p>
+          <p class="mt-4">
+            We are committed to partnering with healthcare organizations to leverage the power of IT and create a healthier future for all. Our team offers a range of IT solutions and services specifically designed for the healthcare industry, and we’re here to help you every step of the way.
+          </p>
+        </div>
+      </div>
 
 
 
+    <!-- --Footer Section-- -->
 
     <footer class="footer-sec bg-dark text-light pt-lg-5 mt-lg-4 py-3">
         <div class="container  text-md-left">
@@ -431,19 +374,11 @@
             </div>
     </footer>
 
-
-
     <!-- Sticky Navbar -->
-    <script src="/JS/stickyNav.js"></script>
+    <script src="/js/stickyNav.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="JS/owl.carousel.min.js"></script>
 
-
-
-
-
-    
 </body>
 
 </html>

@@ -35,7 +35,9 @@
     display: flex;
     justify-content: center;
 }
-
+.artical-card{
+    background-color: var(--color);
+}
 .blog-card {
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
@@ -49,12 +51,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
-/* .blog-card:hover {
+.blog-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-} */
+}
 
 .blog-card img {
     height: 200px;
