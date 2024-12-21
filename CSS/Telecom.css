@@ -46,6 +46,10 @@
     min-height: 355px;
 }
 
+.services-item p{
+    padding: 10px;
+}
+
 .services-item:hover {
     background-color: #e9ecef;
 }
