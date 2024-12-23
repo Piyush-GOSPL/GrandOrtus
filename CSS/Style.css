@@ -554,7 +554,9 @@ list-style-type:none;
     border-radius: 20px;
     margin-top: 20px;
 }
-
+.feed_div{
+    text-align: justify;
+}
 .chooseus-text h4 {
     font-size: 25px;
     color: var(--primary-color);
@@ -651,8 +653,8 @@ list-style-type:none;
 
 .rating {
     color: #ffc107;
-    font-size: 16px;
-    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+    margin: 5px 0px 10px 0px;
 }
 
 .profile-pics img {
@@ -664,9 +666,7 @@ list-style-type:none;
     margin: -10px 5px;
 }
 
-.reting i {
-    color: #ffc107;
-}
+
 
 .choose-img:hover,
 .circle-hov:hover,
