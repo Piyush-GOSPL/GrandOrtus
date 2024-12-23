@@ -9,7 +9,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-style: normal;
     background: #d5dadb8c;
 }
@@ -882,10 +881,14 @@ list-style-type:none;
 }
 
 .form-section {
-    background-color: white;
+    background-color: var(--color);
     padding: 32px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-control{
+    margin-bottom: 14px;
 }
 
 .form-control:focus,
@@ -921,6 +924,8 @@ list-style-type:none;
     padding: 10px 20px;
     border-radius: 10px;
     background: #0090d2;
+    display: flex;
+    margin: auto;
 }
 
 .send-btn a {
