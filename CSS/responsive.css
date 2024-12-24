@@ -154,7 +154,13 @@
     width: auto;
   }
 
-
+  .feedback-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-card .feed_cont img{
+    height: 200px;
+  }
 
 
 }
